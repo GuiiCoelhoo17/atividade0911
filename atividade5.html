@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+    <h1>Diferença dos números em SE</h1>
+    <div id="resultado"></div>
+
+    <script>
+        let val1 = Number(prompt("Digite o primeiro valor"));
+        let val2 = Number(prompt("Digite o segundo valor"));
+        let valor = val1 - val2
+        let result;
+
+        if(val1 - val2){
+        valor = val1 - val2 
+        result = "A diferença é: " + valor
+        }else{
+            valor = val2 - val1
+            result = "A diferença é: " + valor
+        }
+        document.getElementById("resultado").innerHTML = result;
+    </script>
+    
+</body>
+</html>
